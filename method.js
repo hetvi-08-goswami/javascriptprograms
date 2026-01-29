@@ -106,16 +106,35 @@
 // console.log("sort():",num.sort())     //shorting
 // console.log("reverse() : ",num.reverse())
 
-let nestedArray = [1,2,[3,4],[5,6]]
-console.log("default nested array :",nestedArray)
-let flatArray = nestedArray.flat()
-console.log("flatArray",flatArray)
+// let nestedArray = [1,2,[3,4],[5,6]]
+// console.log("default nested array :",nestedArray)
+// let flatArray = nestedArray.flat()
+// console.log("flatArray",flatArray)
 
 
-let nest = [1,2,]
+// let nest = [1,2,]
 
 
+// //array destructuring
+// let array = [1,2,3,4,5]
+// const[first,second,third] = array
+// console.log(first)
+// console.log(second)
+// console.log(third)
 
+
+ //array destructuring = skiping  value
+// let array1 = [1,2,3,4,5]
+// const[first, ,third] = array1
+// console.log(first)
+// console.log(third)
+
+//rest operator
+const num1 = [1,2,3,4,5]
+const [fir,second, ...rest] = num1
+console.log(fir)
+console.log(second)
+console.log(rest)
 
 
 
