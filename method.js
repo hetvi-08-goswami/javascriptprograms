@@ -1,39 +1,118 @@
-//string methods
+// //string methods
+// //length()
+// //trim()
+// //toUpperCase()
+// //toLowerCase()
+// //indexOf()
+// //slice()
+// //subSstring()
+// //replace()
+// //concat()
+// //spit()
+
+// let str = " hello javascript world "
+// console.log(str)
+// console.log("length():" ,str.length)
+
+// let trimText = str.trim();
+// console.log("trim():",trimText.length)
+
+// console.log("toUpperCase():",str.toUpperCase())
+// console.log("toLowereCase():",str.toLowerCase())
+
+// console.log("include():",str.includes("javascript"))
+
+// console.log("indexOf():",str.indexOf("javascript"))
+
+// console.log("slice():",str.slice(2,7))
+
+// console.log("substring():",str.substring(3,8))//not allow(-)
+
+// console.log("replace():",str.replace("hello","hi"))
+
+// console.log("concat():",str.concat("kem chho"))
+
+// console.log("split():",str.split(" "))//give in diffrent string
+
+
+
+
+//array method
 //length()
-//trim()
-//toUpperCase()
-//toLowerCase()
+//push()
+//pop()
+//unshift()
+//shift()
+//concat()
+//includes()
 //indexOf()
 //slice()
-//subSstring()
-//replace()
-//concat()
-//spit()
+//join()
+//delete()
+//map()
+//filter()
+//find()
+//forEach()
+//sort()
+///reverse()
+//flat()
 
-let str = " hello javascript world "
-console.log(str)
-console.log("length():" ,str.length)
+// let arr = ['one','two','three']
+// console.log("default array :",arr)
 
-let trimText = str.trim();
-console.log("trim():",trimText.length)
+// console.log("length() : ",arr.length)//devide by  two (than devide with two part)
 
-console.log("toUpperCase():",str.toUpperCase())
-console.log("toLowereCase():",str.toLowerCase())
+// console.log("push() : ",arr.push("new added element"))//arr.push("new added element")
+// console.log("array after push :",arr)
 
-console.log("include():",str.includes("javascript"))
+// arr.pop();
+// console.log('array after pop :',arr)
 
-console.log("indexOf():",str.indexOf("javascript"))
+// arr.unshift("firsr element")
+// console.log('array after unshift :',arr)//add into first
 
-console.log("slice():",str.slice(2,7))
 
-console.log("substring():",str.substring(3,8))
+// arr.shift()
+// console.log('array after shift :',arr)//begining of array
 
-console.log("replace():",str.replace("hello","hi"))
+// let newArr = ["str 1","str 2"];
+// let MixedArr = arr.concat(newArr);
+// console.log("default array after concat :",arr)
+// console.log("default array after concat :",MixedArr)
 
-console.log("concat():",str.concat("kem chho"))
+// console.log("include :",arr.includes("three"))
+// console.log("indexOf() :",arr.indexOf("three"))
 
-console.log("split():",str.split(" "))
+// console.log("slice :",arr.slice(2,5))
+// console.log("splice :",arr.splice(2,4))
 
+// console.log("join() :",arr.join(", "))
+// delete arr[4]
+// console.log(arr)
+
+
+// console.log("array iteration method : ")
+// let numbers = [1,2,3,4,5]
+
+// console.log("map : ",numbers.map(num => num * 2))
+// console.log("after map old array : ",numbers)
+
+// console.log("after filter old array :",numbers)  // when use loop with condition
+
+// console.log("foreach : ")
+// numbers.forEach(num => console.log(num))
+
+// let num = [3,5,2,4,1]
+// console.log("sort():",num.sort())     //shorting
+// console.log("reverse() : ",num.reverse())
+
+let nestedArray = [1,2,[3,4],[5,6]]
+console.log("default nested array :",nestedArray)
+let flatArray = nestedArray.flat()
+console.log("flatArray",flatArray)
+
+
+let nest = [1,2,]
 
 
 
