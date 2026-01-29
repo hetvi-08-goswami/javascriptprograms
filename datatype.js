@@ -163,7 +163,7 @@
 
 
 let value = 10;
-let num "10"
+let num = "10"
 console.log("value == num :",value == num);
 console.log("value === num :",value === num);
 console.log("value != num :",value != num);
